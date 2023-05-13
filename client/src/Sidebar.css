@@ -1,0 +1,44 @@
+.sidebar {
+    position: sticky;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 10px;
+    width: 30%;
+    
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  }
+  
+  .sidebar ul li a {
+   
+    
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+    
+   
+    
+ 
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #e4e4e4;
+  }
+  
+  .sidebar ul li a.selected {
+    background-color: #4caf50;
+    color: #fff;
+  }
